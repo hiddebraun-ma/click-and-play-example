@@ -66,7 +66,7 @@ function start() {
 
     // Object met waar je wilt binnenkomen na starten
     positie = {
-        x: 0,
+        x: 2,
         y: 5
     };
 

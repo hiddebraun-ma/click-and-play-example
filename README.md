@@ -18,11 +18,19 @@
 
 ### Navigatie
 
-Handiger om onderaan de matrix te starten, zodat vooruit omhoog is en achteruit naar beneden. Dus beginnen bij x=0, y=5.
+Handiger om onderaan de matrix te starten, zodat:
+
+- vooruit = op plattegrond naar boven (y wordt kleiner)
+- achteruit = op plattegrond naar beneden (y wordt groter)
+- links = x wordt kleiner
+- rechts = x wordt groter
+
+En dan "onderaan" beginnen bij bijvoorbeeld x=2, y=5.
 
 ![matrix](web/img/matrix_navigatie.png);
 
 ### Data
+
 Te bespreken. We kunnen per positie een object te gebruiken met informatie over dat punt?
 
 ```javascript
