@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Museum Online - Voorbeeld</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Point and click</h1>
     <div id="container">
-        <div id="content">content</div>
-        <nav>
-            <input type="text" id="posBox" value="0">
-            <input type="button" id="myButton" value="send">
-            <input type="button" id="N" value="N">
-            <input type="button" id="E" value="E">
-            <input type="button" id="S" value="S">
-            <input type="button" id="W" value="W">
-        </nav>
-        <div id="feedback">
-            ..
-        </div>
+        <h1>Museum Online</h1>
+
+        <section id="content">
+
+            <div id="linkerkolom" class="kolom">
+                <img src="img/plattegrond/museum-ingang.jpg" id="foto" />
+                <h3></h3>
+            </div>
+
+            <div id="rechterkolom" class="kolom">
+                <div id="navigatie">
+                    <nav>
+                        <button type="button" id="vooruit-button" value="vooruit">Vooruit</button>
+                        <div>
+                            <button type="button" id="links-button" value="links">Linksaf</button>
+                            <button type="button" id="rechts-button" value="rechts">Rechtsaf</button>
+                        </div>
+                        <button type="button" id="achteruit-button" value="omlaag">Achteruit</button>
+                    </nav>
+                </div>
+
+                <div id="feedback">
+                </div>
+                <button type="button" id="start-button">Start</button>
+            </div>
+        </section>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
